@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-11T15:24:59Z" name="Suite" finished-at="2024-05-11T15:25:51Z" duration-ms="51943">
+    <groups>
+    </groups>
+    <test started-at="2024-05-11T15:24:59Z" name="Test" finished-at="2024-05-11T15:25:51Z" duration-ms="51943">
+      <class name="com.sauceDemo.TestCases.InvalidLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauceDemo.TestCases.InvalidLoginTest@7bd7d6d6]" started-at="2024-05-11T11:25:06Z" name="setup" finished-at="2024-05-11T11:25:07Z" duration-ms="1781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidPasswordLogin()[pri:1, instance:com.sauceDemo.TestCases.InvalidLoginTest@7bd7d6d6]" started-at="2024-05-11T11:25:07Z" name="invalidPasswordLogin" finished-at="2024-05-11T11:25:08Z" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.TestCases.InvalidLoginTest@7bd7d6d6]" started-at="2024-05-11T11:25:08Z" name="tearDown" finished-at="2024-05-11T11:25:08Z" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauceDemo.TestCases.InvalidLoginTest@7bd7d6d6]" started-at="2024-05-11T11:25:13Z" name="setup" finished-at="2024-05-11T11:25:14Z" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidBlankPasswordLogin()[pri:2, instance:com.sauceDemo.TestCases.InvalidLoginTest@7bd7d6d6]" started-at="2024-05-11T11:25:14Z" name="invalidBlankPasswordLogin" finished-at="2024-05-11T11:25:17Z" duration-ms="2439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidBlankPasswordLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.TestCases.InvalidLoginTest@7bd7d6d6]" started-at="2024-05-11T11:25:17Z" name="tearDown" finished-at="2024-05-11T11:25:17Z" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauceDemo.TestCases.InvalidLoginTest@7bd7d6d6]" started-at="2024-05-11T11:25:23Z" name="setup" finished-at="2024-05-11T11:25:24Z" duration-ms="1874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidBlankUsernameLogin()[pri:3, instance:com.sauceDemo.TestCases.InvalidLoginTest@7bd7d6d6]" started-at="2024-05-11T11:25:24Z" name="invalidBlankUsernameLogin" finished-at="2024-05-11T11:25:27Z" duration-ms="2282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidBlankUsernameLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.TestCases.InvalidLoginTest@7bd7d6d6]" started-at="2024-05-11T11:25:27Z" name="tearDown" finished-at="2024-05-11T11:25:27Z" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauceDemo.TestCases.InvalidLoginTest@7bd7d6d6]" started-at="2024-05-11T11:25:36Z" name="setup" finished-at="2024-05-11T11:25:38Z" duration-ms="2122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidBlankUsernameAndPasswordLogin()[pri:4, instance:com.sauceDemo.TestCases.InvalidLoginTest@7bd7d6d6]" started-at="2024-05-11T11:25:38Z" name="invalidBlankUsernameAndPasswordLogin" finished-at="2024-05-11T11:25:41Z" duration-ms="2242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidBlankUsernameAndPasswordLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.TestCases.InvalidLoginTest@7bd7d6d6]" started-at="2024-05-11T11:25:41Z" name="tearDown" finished-at="2024-05-11T11:25:41Z" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauceDemo.TestCases.InvalidLoginTest -->
+      <class name="com.sauceDemo.TestCases.ValidLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@740fb309]" started-at="2024-05-11T11:24:59Z" name="setup" finished-at="2024-05-11T11:25:02Z" duration-ms="2891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginWithFirstUsername()[pri:1, instance:com.sauceDemo.TestCases.ValidLoginTest@740fb309]" started-at="2024-05-11T11:25:02Z" name="validLoginWithFirstUsername" finished-at="2024-05-11T11:25:05Z" duration-ms="3073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginWithFirstUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@740fb309]" started-at="2024-05-11T11:25:05Z" name="tearDown" finished-at="2024-05-11T11:25:06Z" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@740fb309]" started-at="2024-05-11T11:25:08Z" name="setup" finished-at="2024-05-11T11:25:10Z" duration-ms="1662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginWithSecondUsername()[pri:2, instance:com.sauceDemo.TestCases.ValidLoginTest@740fb309]" started-at="2024-05-11T11:25:10Z" name="validLoginWithSecondUsername" finished-at="2024-05-11T11:25:13Z" duration-ms="2491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginWithSecondUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@740fb309]" started-at="2024-05-11T11:25:13Z" name="tearDown" finished-at="2024-05-11T11:25:13Z" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@740fb309]" started-at="2024-05-11T11:25:17Z" name="setup" finished-at="2024-05-11T11:25:19Z" duration-ms="2031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginWithThirdUsername()[pri:3, instance:com.sauceDemo.TestCases.ValidLoginTest@740fb309]" started-at="2024-05-11T11:25:19Z" name="validLoginWithThirdUsername" finished-at="2024-05-11T11:25:22Z" duration-ms="3045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginWithThirdUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@740fb309]" started-at="2024-05-11T11:25:22Z" name="tearDown" finished-at="2024-05-11T11:25:23Z" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@740fb309]" started-at="2024-05-11T11:25:27Z" name="setup" finished-at="2024-05-11T11:25:29Z" duration-ms="2174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginWithFourthUsername()[pri:4, instance:com.sauceDemo.TestCases.ValidLoginTest@740fb309]" started-at="2024-05-11T11:25:29Z" name="validLoginWithFourthUsername" finished-at="2024-05-11T11:25:36Z" duration-ms="6984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginWithFourthUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@740fb309]" started-at="2024-05-11T11:25:36Z" name="tearDown" finished-at="2024-05-11T11:25:36Z" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@740fb309]" started-at="2024-05-11T11:25:41Z" name="setup" finished-at="2024-05-11T11:25:43Z" duration-ms="1677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginWithFifthUsername()[pri:5, instance:com.sauceDemo.TestCases.ValidLoginTest@740fb309]" started-at="2024-05-11T11:25:43Z" name="validLoginWithFifthUsername" finished-at="2024-05-11T11:25:46Z" duration-ms="3176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginWithFifthUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@740fb309]" started-at="2024-05-11T11:25:46Z" name="tearDown" finished-at="2024-05-11T11:25:46Z" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@740fb309]" started-at="2024-05-11T11:25:46Z" name="setup" finished-at="2024-05-11T11:25:48Z" duration-ms="1847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginWithSixthUsername()[pri:6, instance:com.sauceDemo.TestCases.ValidLoginTest@740fb309]" started-at="2024-05-11T11:25:48Z" name="validLoginWithSixthUsername" finished-at="2024-05-11T11:25:51Z" duration-ms="2990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginWithSixthUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauceDemo.TestCases.ValidLoginTest@740fb309]" started-at="2024-05-11T11:25:51Z" name="tearDown" finished-at="2024-05-11T11:25:51Z" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauceDemo.TestCases.ValidLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
