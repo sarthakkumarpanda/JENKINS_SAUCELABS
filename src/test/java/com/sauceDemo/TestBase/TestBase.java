@@ -29,6 +29,7 @@ public class TestBase {
 		if(browserName.equals("Chrome")) {
 			options = new ChromeOptions();
 			options.setPageLoadStrategy(PageLoadStrategy.EAGER);
+			options.addArguments("--headless");
 			options.addArguments("--start-maximized");
 			options.addArguments("--incognito");
 			options.setExperimentalOption("excludeSwitches", Arrays.asList("enable-automation", "disable-infobars"));
